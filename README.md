@@ -72,10 +72,10 @@ Both 'EIN' and 'NAME' columns were dropped/removed, because they were neither ta
 
 Compiling, Training, and Evaluating the Model
 1. How many neurons, layers, and activation functions did you select for your neural network model, and why?
-In the first attempt, i used 8 hidden_nodes_layer1 and 5 hidden_nodes_layer2 -- these were just random guesses from which to iterate upon in the second try.
+In the first attempt, I used 8 hidden_nodes_layer1 and 5 hidden_nodes_layer2, which were essentially random selections that served as starting points for refinement in the second iteration.
 2. Were you able to achieve the target model performance?
-I was not able to achieve the 75% model accuracy target
+I was not able to achieve the 75% model accuracy target.
 3. What steps did you take in your attempts to increase model performance?
-I added more layers, removed more columns, added additional hidden nodes, and switched up the activation functions associated with each layer in an attempt to achieve higher model accuracy.
+I increased the number of layers, removed additional columns, added extra hidden nodes, and altered the activation functions for each layer, all in an effort to enhance the model's accuracy.
 
-Overall, the deep learning model was around 73% accurate in predicting the classification problem. Using a model with greater correlation between input and output would likely result in higher prediction accuracy. This could be achieved by doing additional data cleanup up front, as well as by using a model with different activation functions and iterating until higher accuracy is reached.
+In summary, the deep learning model achieved a 73% accuracy rate for the classification task. Improving the correlation between input and output is expected to enhance prediction accuracy. This improvement can be accomplished by performing initial data cleanup and experimenting with models featuring different activation functions, iterating until a higher accuracy level is attained.
